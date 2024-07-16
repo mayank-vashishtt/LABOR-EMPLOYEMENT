@@ -1,0 +1,58 @@
+.container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 100vh;
+    padding: 25px
+}
+
+.contUpDiv,
+.mobile-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contUpDiv h1{
+    width: 60vw;
+    height: 12vh;
+    align-items: center;
+    text-align: left;
+    background-color: #D9D9D9;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.mobileNumber{
+    display: flex;
+    flex-direction: column;
+    width: 68vw;
+    height: 14vh;
+    text-align: start;
+    justify-content: space-evenly;
+    padding-left: 15px;
+    background-color: #ECA5A5;
+
+}
+
+.mobileinp{
+    width: 180px;
+    padding: 5px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+}
+
+
+button{
+    width: 70vw;
+    height: 6vh;
+    background-color: #ECA5A5;
+    border: #ECA5A5;
+    font-size: large;
+}
